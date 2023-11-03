@@ -1,0 +1,25 @@
+{
+  "name": "veasin/nx-container",
+  "description": "Container for nx",
+  "homepage": "https://github.com/veasin/nx-container",
+  "type": "framework",
+  "authors": [
+    {
+      "name": "Vea",
+      "homepage": "https://www.uper.net",
+      "email": "vea@live.cn"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "psr/container": "*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "nx\\": [
+        "src/"
+      ]
+    }
+  }
+}
